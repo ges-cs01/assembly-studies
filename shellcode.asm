@@ -1,3 +1,5 @@
+;executa shell
+
 section .text
         global _start
 
