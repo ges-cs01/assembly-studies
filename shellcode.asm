@@ -1,3 +1,6 @@
+;nasm -f elf64 -o shellcode.o shellcode.asm
+;ld -o shellcode shellcode.o
+
 ;executa shell
 
 section .text
