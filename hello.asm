@@ -1,3 +1,4 @@
+;hello world in assembly
 ;nasm -f elf32 hello.asm; ld -m elf_i386 -o hello hello.o; ./hello
 
 section .data
