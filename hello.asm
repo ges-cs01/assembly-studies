@@ -13,10 +13,10 @@ global _start
 _start:
 
 ;ssize_t write(int fd, const void *buf, size_t count)
-mov edx, size     ;count
-mov ecx, hello; ;*buf
-mov ebx, 1      ;file descriptor
-mov eax, 4      ;syscall write
+mov edx, size    ;count
+mov ecx, hello   ;*buf
+mov ebx, 1       ;file descriptor
+mov eax, 4       ;syscall write
 int 0x80
 
 ;exit()
